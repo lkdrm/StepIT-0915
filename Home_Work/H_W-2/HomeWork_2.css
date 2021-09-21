@@ -1,0 +1,19 @@
+.first_list {
+    list-style-type: upper-roman;
+}
+
+.HTML_versions {
+    list-style-type: lower-alpha;
+}
+
+.Elements {
+    list-style-type: lower-alpha;
+}
+
+li {
+    font-family: serif;
+}
+
+span {
+    font-family: cursive;
+}
