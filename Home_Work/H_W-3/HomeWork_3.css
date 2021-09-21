@@ -1,0 +1,18 @@
+ol {
+    background-color: #ff9999;
+    padding: 20px;
+    border: 15px solid rgb(243, 220, 220);
+}
+span {
+    color:white;
+    background-color:red;
+    padding: 5px;
+}
+
+li {
+    background-color:#e7bfbf;
+    padding: 5px;
+    margin: 5px;
+}
+
+
