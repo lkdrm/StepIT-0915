@@ -1,0 +1,20 @@
+.tg{
+    text-shadow: 2px 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.noun {
+    font-family: monospace;
+}
+
+.shadow {
+    color:darkgray
+}
+
+.blue{
+    color: blue;
+}
+.black{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px black;
+}
