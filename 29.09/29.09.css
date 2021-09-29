@@ -1,0 +1,42 @@
+.first {
+    font-size: 20px;
+}
+
+.second {
+    font-size: 1.5em;
+}
+
+.third{
+    font-size: 2rem;
+}
+
+.four{
+    font-size: 4ex;
+}
+
+.obdelnik {
+    width: 30%;
+    height: 150px;
+    border: 2px solid black;
+
+}
+
+.zeleny {
+    background-color: green;
+    display: inline-block; 
+    
+}
+
+.modry {
+    background-color: blue;
+    
+}
+
+.cerveny {
+    background-color: red;
+}
+
+.obdelnik {
+    /*display:inline-block */
+    float: left;
+}
