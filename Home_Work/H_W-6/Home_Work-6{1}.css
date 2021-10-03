@@ -1,0 +1,19 @@
+p {
+    line-height: 2;
+    padding: 3px;
+    text-align: justify;
+    text-indent: 30px;
+    background-color:cadetblue;
+    border-width: 5px 20px;
+    overflow: auto;
+    color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-left: 75px;
+    margin-right: 75px;
+    word-spacing: 5px;
+}
+
+body {
+    background-image: url("panda.jpg")
+}

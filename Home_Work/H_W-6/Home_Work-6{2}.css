@@ -1,0 +1,26 @@
+h2 {
+    border-bottom-color:silver;
+}/*?*/
+
+h3 {
+    border-bottom-color:silver;
+}/*?*/
+
+p {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.mid {
+    text-align: right;
+}/*?*/
+
+div {
+    display: table;
+    padding: 7px;
+    border: 1px solid #a2a9b1;
+    background-color:#f8f9fa;
+    font-size: 95%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

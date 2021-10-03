@@ -1,0 +1,26 @@
+h2{
+    text-align: center;
+    border: 1px solid #a2a9b1;
+}
+
+.first{
+    display: block;
+    margin-left: 350px;
+    margin-right: 0px;
+    height: 260px;
+    width: 50%;
+
+}
+
+li{
+    float: left;
+    list-style-type: none;
+    border: 1px solid #a2a9b1;
+}
+
+div {
+    border:1px solid #a2a9b1;
+}
+
+
+
