@@ -1,0 +1,69 @@
+.obdelnik {
+    border: 3px solid black;
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+    margin: 5px;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    
+}
+
+.obdelnik:nth-child(2) {
+    background-color: tomato;
+}
+
+.obdelnik:nth-child(3) {
+    background-color: chartreuse;
+}
+
+
+.obdelnik:nth-child(4) {
+    background-color: chocolate;
+}
+
+.kontejner {
+    display: flex;
+    justify-content: space-evenly;
+    /*
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    */
+}
+
+.obdelnik {
+    /*
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 100px;
+    */
+}
+
+.second {
+    /*
+    flex-shrink: 1;
+    order: 4;
+    */
+}
+
+.third {
+    /*
+    flex-shrink: 3;
+    */
+}
+
+.fourth {
+    /*
+    flex-grow: 3;
+    */
+}
+
+
+.first {
+    /*
+    order: 1;
+    */
+}
