@@ -1,0 +1,32 @@
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: fantasy;
+    
+}
+
+.container {
+    display: flex;
+    margin: 15px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.top { 
+    border-radius: 30px 30px 30px 30px / 50px 50px 50px 50px;
+    border:5px solid grey;
+}
+
+.bottom {
+    border-radius: 30px 30px 30px 30px / 50px 50px 50px 50px;
+    border: 5px solid grey;
+}
+
+.down {
+    border-top: 3px solid grey;
+}
