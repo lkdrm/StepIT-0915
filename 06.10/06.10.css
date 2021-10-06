@@ -1,0 +1,28 @@
+.obdelnik {
+    background-color: yellow;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width:600px) and (max-width:800px) {
+    .obdelnik {
+        background-color: green;
+    }
+}
+
+@media (min-width:800px) {
+    .obdelnik {
+        background-color: red;
+    }
+}
+
+@media (min-width:1000px) {
+    .obdelnik {
+        background-color: blue;
+    }
+}
