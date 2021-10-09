@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    /* otazka: Jak mam to dat uprostred?*/    
+}
+
+.first_pers_cont {
+    display:inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.second_pers_cont {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.first {
+    background-color: palevioletred;
+    border-radius: 45px 45px 45px 0px;
+    padding: 10px;
+    font-family: cursive;
+
+}
+
+.second {
+    background-color:rgb(14, 164, 252);
+    border-radius: 45px 45px 0px 45px;
+    padding: 10px;
+    font-family: cursive;
+}
+
+span {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.shadow {
+    color:gray;
+}
