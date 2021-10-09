@@ -1,9 +1,23 @@
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    flex-wrap: wrap;
+    background-color:grey;
+    margin-right: 1150px;
+    
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
 }
 
 img {
-    height: 20px;
-    width: auto;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.color_curs:hover {
+    background-color:rgb(87, 80, 80);
 }
