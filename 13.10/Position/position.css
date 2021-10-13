@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.obdelnik {
+    background-color: yellow;
+    border: 10px solid brown;
+    height: 100px;
+    width: 200px;
+    margin: 5px;
+}
+
+/*.obdelnik:nth-child(2) {
+    background-color: green;
+}
+*/
+
+/*.obdelnik:nth-child(3) {
+    background-color: red;
+}
+*/
+
+/*.obdelnik:nth-child(2) {
+    position: static;
+}
+*/
+
+.zluty {
+    background-color: gold;
+}
+
+.cerny {
+    background-color: black;
+}
+
+.zeleny {
+    position: relative;
+    left: 50px;
+    background-color: green;
+}
+
+.cerveny {
+    position: relative;
+    background-color: red;
+}
+
+.gold {
+    position: absolute;
+    height: 50px;
+    width: 60px;
+    background-color: wheat;
+    
+}
+
+div a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}

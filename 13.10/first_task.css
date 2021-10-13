@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+}
+
+tr:first-child {
+    background-color: rgb(98, 98, 228);
+    padding: 10px;
+    color: whitesmoke;
+}
+
+tr:nth-child(2n) {
+    background-color: grey;
+}
+tr:nth-child(2n+1) {
+    background-color: lightgoldenrodyellow;
+}
+
+tr:last-child {
+    border:15px;
+}
+
+button {
+    padding: 5px;
+}
+
+th:nth-child(1) {
+    background-color: deepskyblue;
+}
+
+th:nth-child(2) {
+    background-color: darkcyan;
+}
+
+th:nth-child(3) {
+    background-color: rgb(71, 71, 158);
+}
+
+th:nth-child(4) {
+    background-color: darkblue;;
+}
+
+th:nth-child(5) {
+    background-color: black;
+}
+
