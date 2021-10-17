@@ -1,0 +1,82 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    display:inline-flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.txt {
+    font-family: 'Times New Roman', Times, serif;
+}
+.main_txt {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%;
+    text-align: justify;
+}
+
+
+img {
+    border-radius: 20px 20px 0px 0px;
+    width: 350px;
+    height: 200px;
+
+    
+}
+
+.pict {
+    flex-wrap: wrap;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+    width: 350px;
+    background-color:rgb(75, 75, 202);
+}
+
+.pict_main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5px;
+    order:4;
+}
+
+.desk {
+    padding: 5px;
+    text-align: justify;
+    word-wrap: normal;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.none {
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:760px) {
+ .none {
+     display: block;
+ }
+
+ .pict_main {
+     display: inline;
+     float: left;
+ }
+ 
+ p#empty {
+     order: 2;
+ }
+
+ div#picture {
+    order: 1;
+    
+ }
+}
+
+
+
+
