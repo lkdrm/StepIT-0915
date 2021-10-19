@@ -3,19 +3,13 @@
     flex-wrap: wrap;
 }
 
-p {
-    display:inline-flex;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .txt {
-    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    width: 60%;
+    float: left;
 }
 .main_txt {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Times New Roman', Times, serif;
-    width: 60%;
+    font-family: serif;
     text-align: justify;
 }
 
@@ -26,6 +20,11 @@ img {
     height: 200px;
 
     
+}
+
+h3 {
+    border-bottom: 2px solid black;
+    width: 60%;
 }
 
 .pict {
@@ -43,7 +42,8 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     margin: 5px;
-    order:4;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .desk {
@@ -53,9 +53,6 @@ img {
     color: rgba(255, 255, 255, 0.767);
 }
 
-.none {
-    display: none;
-}
 
 @media (min-width:320px) and (max-width:760px) {
  .none {
