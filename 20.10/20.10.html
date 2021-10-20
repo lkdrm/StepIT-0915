@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulare</title>
+    <link rel="stylesheet" href="20.10.css">
+</head>
+<body>
+    <h1>Formular - muj novy pes</h1>
+    <form action="result.html">
+        <label for="jmeno-psa">Zadej jmeno psa</label>
+        <input type="text" id ="jmeno-psa" name="jmeno-psa" placeholder="napr. Alik">
+        
+        <br>
+        <label>
+            Zadej rasu psa:
+            <input type="text" 
+            id="rasa" 
+            name="rasa" 
+            required placeholder="napr. vlcek" 
+            value="vlcak">
+        </label>
+        <input type="sumbit" value="Odesli pres muj input">
+        <button>Send</button>
+        <br>
+        
+        <label for="popis">Zadej popis psa:</label>
+        <textarea name="popis" id="popis" cols="30" rows="10">
+            Muj pes - sem napiste
+        </textarea>
+        <br>
+        
+        <label for="dlouha-srst">Ma dlouhou srst?</label>
+        <input type="checkbox" id="dlouha-srst" name="dlouha-srst">
+        
+        <br>
+
+        <label for="pes">Pes</label>
+        <input type="radio" id="pes" name="pohlavi" value="pes">
+        <br>
+        <label for="fena">fena</label>
+        <input type="radio" id="fena" name="pohlavi" value="fena">
+        <br>
+        <label for="Nezname">Nezname</label>
+        <input type="radio" id="Nezname" name="pohlavi" value="Nezname">
+        
+        <br>
+
+        <label for="heslo">Zadej heslo:</label>
+        <input type="password" id="heslo" name="heslo">
+        <br>
+
+        <input type="number" min="5" max="35" step="2">
+        <br>
+        
+        <input type="date">
+        <br>
+        
+        <input type="email">
+        <br>
+        
+        <input type="time">
+        <br>
+
+        <input type="range" min="50" max="100" step="5">
+        <br>
+
+        <input type="color">
+    </form>
+
+    <form action="https://www.google.com/search">
+        <label for="google"> What do you want to seach</label>
+        <input type="text" id="google" name="q">
+        <button>Send</button>
+    </form>
+</body>
+</html>
