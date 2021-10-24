@@ -1,5 +1,4 @@
 .main {
-    display: flex;
     flex-wrap: wrap;
 }
 
@@ -9,6 +8,8 @@
     float: left;
 }
 .main_txt {
+    display: flex;
+    flex-wrap: wrap;
     font-family: serif;
     text-align: justify;
 }
@@ -30,20 +31,19 @@ h3 {
 .pict {
     flex-wrap: wrap;
     margin: 5px;
-    border: 1px solid black;
     border-radius: 20px;
     float: left;
-    width: 350px;
     background-color:rgb(75, 75, 202);
 }
 
 .pict_main {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin: 5px;
     justify-content: flex-start;
     align-items: center;
+    order: 1;
 }
 
 .desk {
@@ -53,27 +53,58 @@ h3 {
     color: rgba(255, 255, 255, 0.767);
 }
 
-
-@media (min-width:320px) and (max-width:760px) {
- .none {
-     display: block;
- }
-
- .pict_main {
-     display: inline;
-     float: left;
- }
- 
- p#empty {
-     order: 2;
- }
-
- div#picture {
+.ord1 {
     order: 1;
-    
- }
 }
 
+.ord2 {
+    order: 2;
+}
 
+.ord3 {
+    order: 3;
+}
 
+@media (min-width:200px) and (max-width:760px) {
+    .pict_main {
+        width: 90%;
+        order:1;
+        align-items: flex-start;
+ }
+    img {
+        width: 100%;
+    }
+    .txt {
+        width: 90%;
+    }
+    h3 {
+        width: 92%;
+    }
+}
 
+@media (min-width:760px) and (max-width:950px) {
+    .pict_main {
+        width: 90%;
+        order:1;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+ }
+    img {
+        width: 100%;
+    }
+    .txt {
+        width: 90%;
+    }
+    h3 {
+        width: 92%;
+    }
+}
+
+@media (min-width: 960px) {
+    .main {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+}
