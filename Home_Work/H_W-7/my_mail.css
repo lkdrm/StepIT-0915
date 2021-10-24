@@ -1,0 +1,131 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.mail {
+    display: inline-flex;
+    text-align: center;
+}
+
+.account {
+    display: inline-flex;
+}
+
+.txt {
+   display:flex;
+   align-items: center;
+   padding: 5px;
+}
+
+.txt_1 {
+    text-transform: uppercase;
+    flex-direction: row-reverse;
+    display:flex;
+    align-items: center;
+    padding: 5px;
+ }
+
+.txt_left {
+    display:flex;
+    align-items: center;
+    padding: 5px;
+    
+} 
+
+.txt_left:hover {
+    background-color:peru;
+}
+
+.front:hover {
+    background-color:whitesmoke;
+}
+
+.first {
+    float: right;
+    width: 20%;
+    padding-right: 8px ;
+}
+
+.second {
+    float: right;
+    width: 10%;
+    padding-left: 8px;
+}
+
+.left_table {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 6%;
+    padding-top: 3%;
+    align-items:flex-start;
+}
+
+.img_left {
+    padding-right: 3%;
+}
+
+.midle {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 3%;
+    padding-right: 2%;
+    float: right;
+}
+
+.midle_img {
+    float: left;
+}
+
+.front {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+
+span {
+    color:grey;
+}
+
+.midle_txt {
+    display: flex;
+}
+
+.attach {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    width: 3%;
+}
+
+.img_attach {
+    width: 60%;
+    height: 40%;
+}
+
+.left_me {
+    display: flex;
+    width: 14%;
+}
+
+.right_apr {
+    display: flex;
+    padding-left: 2%;
+}
+
+.mid_txt {
+    display: flex;
+    width: 60%;
+}
+
+.img_star {
+    width: 8%;
+    padding-right: 5%;
+}
