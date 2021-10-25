@@ -1,0 +1,25 @@
+.main {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid orange;
+    background-color: whitesmoke;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.box {
+    display: inline-flex;
+    width: 50px;
+    transition: 2s;
+}
+
+.box:nth-child(odd) {
+    background-color: coral;
+    transition: 2s transform,
+                3s background-color;
+}
+
+.box:nth-child(even) {
+    background-color: coral;
+}
