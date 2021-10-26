@@ -107,4 +107,8 @@ h3 {
         display: inline-flex;
         flex-wrap: wrap;
     }
+    .main_txt {
+        height: 750px;
+        flex-direction: column;
+    }
 }
