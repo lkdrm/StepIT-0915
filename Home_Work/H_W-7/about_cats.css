@@ -43,7 +43,7 @@ h3 {
     margin: 5px;
     justify-content: flex-start;
     align-items: center;
-    order: 1;
+    order: 5;
 }
 
 .desk {
@@ -108,7 +108,10 @@ h3 {
         flex-wrap: wrap;
     }
     .main_txt {
-        height: 750px;
+        height: 720px;
         flex-direction: column;
     }
+    
+    .pict_main {
+        align-content: flex-start ;
 }
