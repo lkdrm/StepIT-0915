@@ -1,0 +1,55 @@
+.kolecko {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 100px;
+    animation: diskoteka;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* animation-fill-mode: forwards; */
+}
+
+
+@keyframes diskoteka {
+    0% {
+        transform: translate(0, 0);
+        border-radius: 50%;
+    }
+
+    20% {
+        transform: translate(0,200px);
+        
+    }
+
+    30% {
+        background-color: blue;
+    }
+    
+    40% {
+        transform: translate(0,0);
+        width: 20px;
+    }
+    
+    50% {
+        transform: translate(0,150px);
+        border-radius: 0;
+    }
+    
+    60% {
+        height: 20px;
+        transform: translate(600px,0);
+    }
+
+    80% {
+        transform: translate(600px,200px);
+    }
+
+    100% {
+        transform: translate(600px, 0);
+    }
+
+
+}

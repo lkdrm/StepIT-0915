@@ -1,0 +1,53 @@
+body {
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-left: 20px;
+    background-color: brown;
+    color: whitesmoke;
+    padding: 10px;
+    
+}
+
+.menu {
+    background-color: rgb(71, 43, 43);
+    color: whitesmoke;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.left {
+    display: grid;
+    justify-content: start;
+}
+
+.aside_one {
+    display: grid;
+}
+
+.aside_two {
+    display: grid;
+}
+
+main {
+    display: grid;
+    
+}
+
+.first__right {
+    display: grid;
+    justify-content: end;
+}
+
+footer {
+    display: grid;
+    padding-left: 10px;
+    background-color: rgb(71, 43, 43);
+    color: whitesmoke;
+    padding: 5px;
+}
+
+p {
+    display: inline;
+}
