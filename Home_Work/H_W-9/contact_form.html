@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact_form.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2>Contact Form</h2>
+        <p>Please fill in your information and we`ll be sending your order</p>
+        <form>
+            <div>
+                <label>
+                    <span>Your name</span>
+                    <input type="text" placeholder="Jack" id="firstname" name="userFirstName">
+                    <input type="text" placeholder="Ober" id="lastname" name="userLastName">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Your email</span>
+                    <input type="email" placeholder="text@gmail.com" id="email" name="userEmail" class="email">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Phone*</span>
+                    <input type="tel" placeholder="+38" id="userPhoneNumb" name="phoneNumb" class="plus">
+                    <input type="tel" placeholder="0506535232" id="userPhoneNumb" name="phoneNumb" class="nums">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Message subject*</span>
+                    <input type="text" id="subject" name="userMessageSubject" list="messageSubject" class="subj">
+                    <datalist id="messageSubject">
+                        <option value="Other">Other</option>
+                    </datalist>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Message*</span>
+                    <textarea name="userMessage" id="message" cols="30" rows="10"
+                    placeholder="Here you can write some information for us. Thank you"></textarea>
+                </label>
+            </div>
+            <hr>
+            <div>
+                <button type="submit">Submit form</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
