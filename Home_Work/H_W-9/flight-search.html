@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights</title>
+    <link rel="stylesheet" href="flight-search.css">
+</head>
+
+<body>
+    <div class="hp">
+        <h1>Flights - Search List</h2>
+            <p>Home/Flights Search List</p>
+    </div>
+    <div class="grid__body">
+        <header>
+            <form>
+                <div>
+                    <input type="radio" name="Way" id="One_Way" value="One Way">
+                    <label for="One_Way">One Way</label>
+                    <input type="radio" name="Way" id="Round_Trip" value="Round Trip">
+                    <label for="Round_Trip">Round Trip</label>
+                </div>
+                <div>
+                    <label>
+                        <input type="text" id="from" name="user_From" placeholder="From">
+                        <input type="text" id="To" name="user_To" placeholder="To">
+                        <input type="date" id="depart__date" name="user_Depart_Date" placeholder="Depart Date">
+                        <input type="date" id="return__date" name="user_Return_Date" placeholder="Return Date">
+                        <input type="text" id="class" name="user_class" list="user__class">
+                        <datalist id="user__class">
+                            <option value="Economy class">Economy class</option>
+                            <option value="Business class">Business class</option>
+                            <option value="Luxury class">Luxury class</option>
+                        </datalist>
+                        <input type="submit" value="Search" id="searchBtn">
+                    </label>
+                </div>
+            </form>
+        </header>
+        <aside>
+            <h2>Filter</h2>
+            <form>
+                <fieldset>
+                    <legend>
+                        <h4>No.of Stops:</h4>
+                    </legend>
+                    <ul>
+                        <li>
+                            <label>
+                                <span>Non stop</span>
+                                <input type="radio" id="non_stop" name="stops" value="Non__Stop">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>1 Stop</span>
+                                <input type="radio" id="one_stop" name="stops" value="1__Stop">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>2+ Stop</span>
+                                <input type="radio" id="two_stop" name="stops" value="2__stop">
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+            <form>
+                <div>
+                    <h4>Price:</h4>
+                    <label>
+                        <span>Min:</span>
+                        <input type="number" id="numb" name="user_Min_price" min="50" max="1000">$
+                        -
+                        <span>Max:</span>
+                        <input type="number" id="numb" name="user_Max_price" min="50" max="1000">$
+                    </label>
+                </div>
+            </form>
+            <form>
+                <div>
+                    <h4>Airlines:</h4>
+                    <ul class="width__aside__check">
+                        <li>
+                            <label>
+                                <span>Asiana Airlines</span>
+                                <input type="radio" id="asian_airlines" name="AirLines" value="Asiana__Airlines">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>American Airlines</span>
+                                <input type="radio" id="american_airlines" name="AirLines" value="American__Airlines">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>Air Canada</span>
+                                <input type="radio" id="canada_airlines" name="AirLines" value="Air__Canada">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>Air India</span>
+                                <input type="radio" id="india_airlines" name="AirLines" value="Air__India">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>Jet Airways</span>
+                                <input type="radio" id="jet_airlines" name="AirLines" value="Jet__Airways">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>Spicejet</span>
+                                <input type="radio" id="spice_airlines" name="AirLines" value="Spicejet">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>IndiGO</span>
+                                <input type="radio" id="indi_airlines" name="AirLines" value="Indi__Go">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <span>Multiple Airlines</span>
+                                <input type="radio" id="multiple_airlines" name="AirLines" value="Multiple__Airlines">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </aside>
+        <main>
+            <h3>Dehli to Sydney</h3>
+            <table>
+                <tr class="white__back">
+                    <th>Airlines</th>
+                    <th>Depacture</th>
+                    <th>Duration</th>
+                    <th>Arrival</th>
+                    <th>Price</th>
+
+                </tr>
+                <tr>
+                    <td>
+                        <p>IndiGo</p>
+                        <p>6E-2489</p>
+                    </td>
+                    <td>
+                        <p>23:30</p>
+                        <p>Dehli</p>
+                    </td>
+                    <td>
+                        <p>18h 55m</p>
+                        <p>Non Stop</p>
+                    </td>
+                    <td>
+                        <p>18:15</p>
+                        <p>Sydney</p>
+                    </td>
+                    <td>
+                        <p>$980</p>
+                    </td>
+                    <td>
+                        <form>
+                            <div>
+                                <input type="submit" value="Book" id="submBtn">
+                                <p><a href="" class="hvr">Flight Details</a></p>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Asian Airlines</p>
+                        <p class="shadow">7F-5719</p>
+                    </td>
+                    <td>
+                        <p>01:45</p>
+                        <p>Dehli</p>
+                    </td>
+                    <td>
+                        <p>26h</p>
+                        <p>1 stop</p>
+                    </td>
+                    <td>
+                        <p>16:20</p>
+                        <p>Sydney</p>
+                    </td>
+                    <td>
+                        <p>$640</p>
+                    </td>
+                    <td>
+                        <form>
+                            <div>
+                                <input type="submit" value="Book" id="submBtn">
+                                <p><a href="" class="hvr">Flight Details</a></p>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>American Airlines</p>
+                        <p class="shadow">8F-8126</p>
+                    </td>
+                    <td>
+                        <p> 03:30</p>
+                        <p>Dehli</p>
+                    </td>
+                    <td>
+                        <p>30h 20m</p>
+                        <p>2 Stops</p>
+                    </td>
+                    <td>
+                        <p>06:50</p>
+                        <p>Sydney</p>
+                    </td>
+                    <td>
+                        <p>$450</p>
+                    </td>
+                    <td>
+                        <form>
+                            <div>
+                                <input type="submit" value="Book" id="submBtn">
+                                <p><a href="" class="hvr">Flight Details</a></p>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Air Canada</p>
+                        <p class="shadow">1R-8613</p>
+                    </td>
+                    <td>
+                        <p>07:25</p>
+                        <p>Dehli</p>
+                    </td>
+                    <td>
+                        <p>16h</p>
+                        <p>Non Stop</p>
+                    </td>
+                    <td>
+                        <p>22:15</p>
+                        <p>Sydney</p>
+                    </td>
+                    <td>
+                        <p>$990</p>
+                    </td>
+                    <td>
+                        <form>
+                            <div>
+                                <input type="submit" value="Book" id="submBtn">
+                                <p><a href="" class="hvr">Flight Details</a></p>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Jet Airways</p>
+                        <p class="shadow">3P-8512</p>
+                    </td>
+                    <td>
+                        <p>09:10</p>
+                        <p>Dehli</p>
+                    </td>
+                    <td>
+                        <p>22h 38m</p>
+                        <p>1 Stop</p>
+                    </td>
+                    <td>
+                        <p>21:40</p>
+                        <p>Sydney</p>
+                    </td>
+                    <td>
+                        <p>$780</p>
+                    </td>
+                    <td>
+                        <form>
+                            <div>
+                                <input type="submit" value="Book" id="submBtn">
+                                <p><a href="" class="hvr">Flight Details</a></p>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Spicejet</p>
+                        <p class="shadow">5L-8142</p>
+                    </td>
+                    <td>
+                        <p>11:40</p>
+                        <p>Dehli</p>
+                    </td>
+                    <td>
+                        <p>28h</p>
+                        <p>2 Stop</p>
+                    </td>
+                    <td>
+                        <p>14:40</p>
+                        <p>Sydney</p>
+                    </td>
+                    <td>
+                        <p>$500</p>
+                    </td>
+                    <td>
+                        <form>
+                            <div>
+                                <input type="submit" value="Book" id="submBtn">
+                                <p><a href="" class="hvr">Flight Details</a></p>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+    background-image: url(teahub.jpg);
+}
+
+.hp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(69, 69, 189);
+    color: whitesmoke;
+    font-family: cursive;
+}
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+
+.grid__body {
+    display: grid;
+    grid-template-columns: 310px 950px;
+    grid-template-rows: 80px;
+    grid-template-areas: 
+        "header header"
+        "aside main";
+        justify-content: center;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+header {
+    grid-area: header;
+    margin-bottom: 10px;
+}
+
+header form div {
+    padding: 3px;
+    padding-left: 10px;
+}
+
+header form div label input {
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+input[id="searchBtn"] {
+    border-radius: 10px;
+    background-color:rgb(74, 74, 197);
+    color: whitesmoke;
+    height: 30px;
+}
+
+input[id="searchBtn"]:hover {
+    background-color:blue;
+}
+
+
+aside {
+    
+    grid-area: aside;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main {
+    grid-area: main;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+td {
+    width: 1%;
+    padding: 20px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    word-wrap: break-word;
+}
+main h3 {
+    border: outset;
+}
+
+main table tr td {
+    border-bottom: 1px solid gray;
+}
+
+main table tr td p {
+    text-align: center;
+}
+
+main table tr td form div {
+    display: flex;
+    flex-direction: column;
+}
+
+main table tr th {
+    color: blue;
+}
+
+main table tr td p:nth-child(2) {
+    color:gray;
+}
+
+.shadow {
+    color: gray
+}
+
+.white__back {
+    background-color:white;
+}
+
+input[id="submBtn"] {
+    border-radius: 10px;
+    padding: 8px;
+    background-color:rgb(74, 74, 197);
+    color: whitesmoke;
+}
+
+input[id="submBtn"]:hover {
+    background-color:blue;
+}
+
+.hvr:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+aside {
+    background-color:white;   
+}
+
+aside form fieldset {
+    margin: 0px;
+    padding: 0px;
+}
+
+aside form ul {
+    padding: 5px;
+    width: 95px;
+    text-align:end;
+}
+
+.width__aside__check {
+    width: 160px;
+}
+
+aside form h4 {
+    border: outset;
+}
+
+aside h2 {
+    border: outset;
+}
