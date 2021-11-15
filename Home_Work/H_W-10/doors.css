@@ -1,0 +1,39 @@
+
+.main_flex {
+    display: inline-flex;
+    margin-top: 150px;
+    margin-left: 300px;
+    perspective: 500px;
+    align-items: center; 
+}
+
+.left, .right{
+    background-color:blueviolet;
+    border:5px solid black;
+    color:#fff;
+    box-sizing: border-box;
+    width: 450px;
+    height: 150px;
+    transition: 2s;
+}
+
+
+h1 {
+    display: none;
+    transition-property: display;
+    transition: 3s;
+    transition-delay: 3s;
+}
+
+.main_flex:hover h1{
+    display: inline-block; 
+    transition-delay: 3s;
+}
+
+.main_flex:hover .right {
+    transform: rotateY(-70deg);
+}
+
+.main_flex:hover .left {
+    transform: rotateY(70deg);
+}
