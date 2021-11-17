@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(230, 177, 130);
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.main__grid{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.grid {
+    display: grid;
+    padding-top: 70px;
+    justify-items: center;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+}
+
+.clc {
+    display: inline-block;
+    transform: rotate(-38deg);
+    animation: move__calc 3s linear 1s;
+}
+
+.bk {
+    display: inline-block;
+    transform: rotate(-30deg) scale(1.6) skew(-10deg) translate(10px,-30px);
+    animation: book 3s linear 1s;
+}
+
+.pp {
+    display: inline-block;
+    transform: rotate(30deg) scale(1.6) skew(10deg) translate(10px,-30px);
+    animation: paper 3s linear 1s;
+}
+
+.plt {
+    display: inline-block;
+    transform: rotate(90deg);
+    animation: pallette 3s linear 1s;
+}
+
+.pnl {
+    display: inline-block;
+    transform: rotate(90deg);
+    animation: pallette 3s linear 1s;
+}
+
+div div main div {
+    padding: 30px;
+}
+
+div div main div:hover{
+    transform: none;
+    transition: 3s;
+}
+
+div div footer div:hover {
+    transform: none;
+    transition: 3s;
+}
+
+@keyframes move__calc {
+    from {
+        transform: rotate(0deg);
+        display: none;
+    }
+
+    to {
+        transform: rotate(-38deg);
+
+    }
+}
+
+@keyframes book {
+    from {
+        transform: rotate(0deg) scale(0) skew(0deg) translate(0px,0px);
+        display: none;
+    }
+
+    to {
+        transform: rotate(-30deg) scale(1.6) skew(-10deg) translate(10px,-30px);
+       
+    }
+}
+
+@keyframes paper {
+    from {
+        transform: rotate(0deg) scale(0) skew(0deg) translate(0px,0px);
+        display: none;
+    }
+
+    to {
+        transform: rotate(30deg) scale(1.6) skew(10deg) translate(10px,-30px);
+        
+    }
+}
+
+@keyframes pallette {
+    from {
+        transform: rotate(0deg);
+        display: none;
+    }
+
+    to {
+        transform: rotate(90deg);
+        
+    }
+}
