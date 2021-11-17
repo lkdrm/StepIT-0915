@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    filter: grayscale(100%);
+    opacity: 0.2;
+}
+
+img:hover {
+    transform: scale(7);
+    filter: none;
+    transition: 5s;
+    opacity: 1;
+}
+

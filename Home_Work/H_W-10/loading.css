@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(231, 194, 146);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background-color:cornsilk;
+    border: 1px solid black; 
+}
+
+.move {
+    display: block;
+    box-sizing: border-box;
+    background-color:cornflowerblue;
+    height: 40px;
+    width: 50px;
+    border:1px dashed black;
+    animation: go__move 5s linear alternate infinite;
+}
+
+@keyframes go__move {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 350px;
+    }
+}
